@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suganya.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="HomeActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="SignUPActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".LearnNumMainActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".PlayWithNumMainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".LearnArithmeticMainActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".PlayWithArithmeticMainActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".learnnum"
+            android:label="@string/title_activity_learnnum" />
+        <activity
+            android:name=".findnum"
+            android:label="@string/title_activity_findnum" />
+
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2" />
+        <activity
+            android:name=".Gessturee"
+            android:label="@string/title_activity_gesture" />
+        <activity
+            android:name=".PlayMain"
+            android:label="@string/title_activity_play_main" />
+        <activity
+            android:name=".PlayGame"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".HowToPlay"
+            android:label="@string/title_activity_how_to_play" />
+        <activity
+            android:name=".HighScores"
+            android:label="@string/title_activity_high_scores" />
+        <activity
+            android:name=".Image"
+            android:label="@string/title_activity_image" />
+        <activity
+            android:name=".AnimationActivity"
+            android:label="@string/title_activity_animation"/>
+        <activity
+            android:name=".Addvideo"
+            android:label="Addvideo" />
+        <activity
+            android:name=".Subvideo"
+            android:label="Subvideo"/>
+        <activity
+            android:name=".Mulvideo"
+            android:label="Mulvideo" />
+        <activity
+            android:name=".Divvideo"
+            android:label="Divvideo"/>
+    </application>
+
+</manifest>
